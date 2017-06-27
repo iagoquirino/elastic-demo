@@ -1,0 +1,11 @@
+server:
+    context-path: /elastic-demo
+
+spring:
+    application:
+        name: elastic-demo
+    data:
+        elasticsearch:
+          cluster-nodes: localhost:9300
+
+
